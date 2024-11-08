@@ -1,0 +1,133 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #111827; /* Dark background for the page */
+  margin: 0;
+  padding: 0;
+  color: #E5E7EB; /* Light text color for readability */
+  
+}
+
+/* Container for Centering Content */
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: #1F2937; /* Dark gray background for forms */
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  
+}
+
+/* Form Heading */
+h2 {
+  text-align: center;
+  color: #FBBF24; /* Yellow for the heading */
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 1.8rem;
+  
+}
+
+/* Input Fields */
+.form-control {
+  padding: 12px 15px;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  border: 1px solid #374151; /* Dark border */
+  border-radius: 5px;
+  background-color: #374151; /* Dark input background */
+  color: #E5E7EB; /* Light text color */
+  
+}
+
+/* Focus Effect on Input Fields */
+.form-control:focus {
+  border-color: #FBBF24; /* Yellow border on focus */
+  box-shadow: 0 0 5px rgba(251, 191, 36, 0.5);
+  background-color: #4B5563; /* Slightly lighter background */
+  
+}
+
+/* Buttons */
+.btn {
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  color: #fff; /* White text */
+  
+}
+
+/* Primary Button (for Submit, Login, Register) */
+.btn-primary {
+  background-color: #FBBF24; /* Yellow for primary button */
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #D97706; /* Darker yellow on hover */
+  transform: translateY(-2px);
+}
+
+.btn-primary:active {
+  background-color: #B45309; /* Even darker yellow on click */
+  transform: translateY(0);
+}
+
+/* Error Messages */
+.alert {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #F87171; /* Red background */
+  color: #1F2937; /* Dark text */
+  border: 1px solid #FCA5A5;
+  border-radius: 5px;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #1F2937; /* Dark gray for the navbar */
+  padding: 10px 20px;
+  
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #FBBF24; /* Yellow brand color */
+  font-weight: 500;
+  text-transform: capitalize;
+  
+}
+
+.nav-link {
+  color: #FBBF24; /* Yellow links */
+}
+
+.nav-link:hover {
+  color: #D97706; /* Darker yellow on hover */
+}
+
+
+/* Quick Access Panel */
+.quick-access {
+  background-color: #374151; /* Darker gray */
+  color: #FBBF24; /* Yellow text */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 1.2rem;
+  }
+}
